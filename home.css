@@ -1,0 +1,63 @@
+/* General */
+
+h1 {
+  font-family: "Bonbon", cursive;
+}
+
+h1,
+p {
+  color: #8c93a8;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9e3b4;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+header img {
+  width: 20%;
+  height: auto;
+  margin-bottom: 0%;
+}
+
+/* Navigation */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #62466b;
+}
+
+ul > li {
+  float: left;
+}
+ul > li {
+  display: block;
+  color: #4a306d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+}
